@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center;
+  min-width: 320px; */
+  height: 100vh;
+  background: linear-gradient(#2A00B7, #420067);
+}
+
