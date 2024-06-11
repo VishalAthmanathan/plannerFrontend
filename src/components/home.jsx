@@ -4,6 +4,7 @@ import logo from "./assets/spiderlogo.jpg";
 import {HiLocationMarker} from 'react-icons/hi'
 import CountUp from "react-countup";
 import CarouselComponent from './carousal';
+import Footer from "./footer";
 
 const Home = () => {
     return (
@@ -84,6 +85,7 @@ const Home = () => {
             </div>
         </section>
         <CarouselComponent/>
+        <Footer/>
     </>
     )
 }
