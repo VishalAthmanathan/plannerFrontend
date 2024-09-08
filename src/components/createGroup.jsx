@@ -6,10 +6,12 @@ import feature1 from "./assets/spiderlogo.jpg";
 import feature2 from "./assets/spiderlogo.jpg";
 import feature3 from "./assets/spiderlogo.jpg";
 import feature4 from "./assets/spiderlogo.jpg";
+import NavBar from "./nav";
 
 const CreateGroupComponent = () => {
   return (
     <div>
+      <NavBar/>
       <header className="hero">
         <img src={meetupLogo} alt="Meetup Logo" className="hero-logo" />
         <div className="createHead">
@@ -21,9 +23,11 @@ const CreateGroupComponent = () => {
               people have chosen Meetup to make real connections over shared
               interests. Start a group today.
             </p>
-            <button className="cta-button">Start a group</button>
-          <img src={heroImage} alt="Hero" className="hero-image" />
           </div>
+        </div>
+        <div>
+          <button className="cta-button">Start a group</button>
+          <img src={heroImage} alt="Hero" className="hero-image" />
         </div>
       </header>
       <section className="features">

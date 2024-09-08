@@ -16,8 +16,8 @@ const Home = () => {
                 <div className="flexCenter h-menu">
                     <a href="">Home</a>
                     <a href="">Explore</a>
-                    <a href="">Groups</a>
-                    <a href="">Events</a>
+                    <a href="/creategroup">Groups</a>
+                    <a href="/eventlist">Events</a>
                     <button className='button'>
                         <a href="">Sign In</a>
                     </button>

@@ -6,9 +6,11 @@ import '../../App.css';
 export default function Profile(){
 return(
  <>  
-<Cover />
+{/* <Cover /> */}
+<div style={{marginTop: "10rem"}}>
 <Container display={{ base: 'block', md: 'flex' }} maxW="container.xl">
 <Sidebar />
 <Content />
 </Container>
+</div>
 </>)}

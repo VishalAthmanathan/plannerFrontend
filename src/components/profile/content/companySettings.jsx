@@ -19,7 +19,7 @@ import {
         gap={6}
       >
         <FormControl id="companyId">
-          <FormLabel>Company ID</FormLabel>
+          <FormLabel>Group ID</FormLabel>
           <InputGroup>
             <InputLeftAddon color="gray.500">
               <svg width="1em" fill="currentColor" viewBox="0 0 20 20">
